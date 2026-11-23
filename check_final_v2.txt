@@ -1,0 +1,4 @@
+File: export_final_v2.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=10, face=13, face13=4, hand=12, infant_seat=8, object=10, person=14, phone=1
+Ghi chú G05. Coach đã xác nhận child_seat.occupied=yes được chấp nhận. Giá trị này có ở S02_ir, S02_rgb, S08_ir và S08_rgb.
+Kết quả: 0 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.

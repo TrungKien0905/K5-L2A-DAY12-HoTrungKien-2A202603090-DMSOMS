@@ -1,0 +1,3 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D02.png,face13,count,Khác số skeleton khi đối chiếu với part_B.zip.,1,0,mine,4.6,"Giữ face13 ở bản cuối. Box face rộng 229,56 px và có đủ 13 điểm nằm trong box. Mở D02 trong CVAT để so vị trí điểm với mép mắt, mũi và miệng."
+S06_ir.png,infant_seat,label,"Khác lớp ở rear_right giữa S06_ir.png và S06_rgb.png. Hai box chồng lấp 97,6% theo IoU.",infant_seat (S06_ir),child_seat (S06_rgb),mine,"4.1, 4.8","Đã đổi S06 RGB tại rear_right từ child_seat sang infant_seat, facing=front. Bản v2 dùng cùng lớp và hướng ghế trên cả RGB và IR-sim."

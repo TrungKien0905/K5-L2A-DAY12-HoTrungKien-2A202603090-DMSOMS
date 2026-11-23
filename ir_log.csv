@@ -1,0 +1,9 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S03_ir,IR_sim,"Trong khung bao ghế em bé ở rear_right, tỷ lệ điểm ảnh có độ sáng dưới 16/255 giảm từ 99,5% ở RGB xuống 26,9% ở IR-sim.",infant_seat.facing,Bản xuất CVAT ghi rear ở cả hai ảnh. Dùng đường viền trên IR-sim để đối chiếu hướng ghế.
+S04_ir,IR_sim,"Ở một phần ba bên phải ảnh, tỷ lệ điểm ảnh dưới 16/255 giảm từ 31,1% ở RGB xuống 4,7% ở IR-sim.",child_seat.seat,Bản cuối gán rear_left ở cả hai ảnh. Dùng đường viền ghế để đối chiếu vị trí theo xe.
+S05_ir,IR_sim,"Trong box đồ vật ở rear_right, độ sáng trung bình tăng từ 37,5 ở RGB lên 62,3 ở IR-sim trên thang 0–255.",object.type,Cả hai ảnh được gán bag. Dùng hình dạng và đường viền để đối chiếu loại đồ vật trên ảnh xám.
+S06_ir,IR_sim,"Trong box ghế ở rear_right, tỷ lệ điểm ảnh dưới 16/255 giảm từ 86,2% ở RGB xuống 24,0% ở IR-sim.",infant_seat.facing,"Bản v2 gán infant_seat, facing=front trên cả hai ảnh. Dùng đường viền ghế để đối chiếu hướng ghế."
+S07_ir,IR_sim,"Trong box ghế em bé ở rear_middle, tỷ lệ điểm ảnh dưới 16/255 giảm từ 22,7% ở RGB xuống 0,5% ở IR-sim.",infant_seat.facing,Bản cuối ghi rear ở cả hai ảnh. Đối chiếu hướng ghế dựa vào đường viền.
+S08_ir,IR_sim,"Trong box ghế trẻ em ở rear_left, tỷ lệ điểm ảnh dưới 16/255 giảm từ 61,6% ở RGB xuống 10,0% ở IR-sim.",child_seat.occupied,Bản cuối ghi yes ở cả hai ảnh. Kiểm tra phần bên trong ghế để xác nhận có người ngồi.
+D02,real_IR,"Trên khung NIR xoay khoảng 90°, tọa độ y của khóe ngoài mắt trái trong bản gán là 587,61 px, lớn hơn mắt phải 508,51 px.",face13,Thứ tự dọc phù hợp quy ước mắt trái và phải theo người lái ở mục 4.6. Đối chiếu điểm đặt với khóe mắt trong CVAT.
+D03,real_IR,"Trong bản gán khung NIR, cả tám điểm thuộc hai mắt có cờ outside=1. Năm điểm còn lại có outside=0.",face.eye_left / face.eye_right,Bản cuối ghi unknown cho cả hai mắt. Giữ unknown nếu quan sát trên CVAT vẫn chưa phân biệt được hai mí.
